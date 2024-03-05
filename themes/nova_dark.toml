@@ -1,0 +1,24 @@
+inherits = "base16_transparent"
+
+"ui.gutter" = { bg = "default" }
+"ui.statusline" = { fg = "white", bg = "default" }
+"ui.menu" = { fg = "white", bg = "default" }
+"ui.background.separator" = { bg = "default" }
+"ui.cursor" = { bg = "white" }
+"ui.help" = { bg = "gray" }
+
+"variable" = "light-magenta"
+"constant.numeric" = "light-yellow"
+"constant" = "light-yellow"
+"attribute" = "light-magenta"
+"type" = "light-cyan"
+"string"  = "light-red"
+"variable.other.member" = "light-magenta"
+"constant.character.escape" = "light-white"
+"function" = "light-magenta"
+"constructor" = "light-blue"
+"special" = "light-white"
+"keyword" = "light-blue"
+"label" = "light-blue"
+"namespace" = "light-cyan"
+

@@ -1,0 +1,19 @@
+inherits = "base16_transparent"
+
+"ui.background" = {}
+
+"variable" = "white"
+"constant.numeric" = "light-yellow"
+"constant" = "light-yellow"
+"attribute" = "light-cyan"
+"type" = "light-magenta"
+"string"  = "light-yellow"
+"variable.other.member" = "white"
+"constant.character.escape" = "white"
+"function" = "white"
+"constructor" = "white"
+"special" = "white"
+"keyword" = "light-red"
+"label" = "white"
+"namespace" = "light-magenta"
+

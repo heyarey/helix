@@ -1,0 +1,31 @@
+theme = "nova_dark"
+
+[editor]
+line-number = "absolute"
+mouse = true
+cursorline = true
+scroll-lines = 1
+text-width = 80
+
+
+[editor.statusline]
+left = ["mode", "file-name", "version-control", "spinner"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = true
+
+[keys.normal]
+f = { f = "file_picker_in_current_buffer_directory" }
